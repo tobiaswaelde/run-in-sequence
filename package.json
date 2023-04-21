@@ -10,9 +10,7 @@
   "scripts": {
     "test": "ts-node src/test/index.ts",
     "prebuild": "rm -rf ./out",
-    "build": "cd src && tsc",
-    "prepublish": "yarn build",
-    "publish": "npm publish"
+    "build": "cd src && tsc"
   },
   "devDependencies": {
     "@types/cli-progress": "^3.11.0",
