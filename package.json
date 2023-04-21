@@ -1,6 +1,6 @@
 {
   "name": "run-in-sequence",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A simple function to run async functions in sequence.",
   "keywords": [
     "typescript",
