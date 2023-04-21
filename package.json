@@ -1,7 +1,7 @@
 {
   "name": "run-in-sequence",
   "version": "0.1.0",
-  "description": "A simple function to run async functions in sequence",
+  "description": "A simple function to run async functions in sequence.",
   "main": "index.js",
   "repository": "git@github.com:tobiaswaelde/run-in-sequence.git",
   "author": "Tobias Wälde <tobias.waelde@gmail.com>",
@@ -10,7 +10,9 @@
   "scripts": {
     "test": "ts-node src/test/index.ts",
     "prebuild": "rm -rf ./out",
-    "build": "cd src && tsc"
+    "build": "cd src && tsc",
+    "prepublish": "yarn build",
+    "publish": "npm publish"
   },
   "devDependencies": {
     "@types/cli-progress": "^3.11.0",
