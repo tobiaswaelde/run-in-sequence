@@ -2,6 +2,15 @@
   "name": "run-in-sequence",
   "version": "1.0.1",
   "description": "A simple function to run async functions in sequence.",
+  "keywords": [
+    "typescript",
+    "util",
+    "run",
+    "sequence",
+    "async",
+    "await",
+    "function"
+  ],
   "main": "index.js",
   "repository": "git@github.com:tobiaswaelde/run-in-sequence.git",
   "author": "Tobias Wälde <tobias.waelde@gmail.com>",
