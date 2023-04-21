@@ -11,12 +11,23 @@
 
 `runInSequence` is a simple util to run a list of asyc functions in sequence.
 
+- [Installation](#installation)
 - [How to use](#how-to-use)
   - [Basic usage](#basic-usage)
   - [With progress](#with-progress)
   - [With progress bar](#with-progress-bar)
   - [Delay](#delay)
 
+
+## Installation
+#### NPM
+```
+npm install run-in-sequence
+```
+#### Yarn
+```
+yarn add run-in-sequence
+```
 
 ## How to use
 
@@ -55,7 +66,7 @@ const results = await runInSequence(listOfAsyncFunctions, ({ index, progress, pe
 console.log(`Results:`, results);
 ```
 
-##### Output
+#### Output
 ```
 Progress: [1] 0.1 - 10%
 Progress: [2] 0.2 - 20%
@@ -85,7 +96,7 @@ const results = await runInSequence(listOfAsyncFunctions, ({ index }) =>
 progressBar.stop();
 ```
 
-##### Output
+#### Output
 ```
 progress [=======================================] 100% | ETA: 0s | 10/10
 Results: [
